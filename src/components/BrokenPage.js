@@ -24,13 +24,13 @@ const BrokenPage = () => {
               <pre className="text-start">
                 <code>
                   {`
-                  // What's happening behind the scenes:
-                    while (!siteComplete) {
-                      drinkCoffee();
-                      writeCode();
-                      debug();
-                      repeat();
-                    }`}
+// What's happening behind the scenes:
+while (!siteComplete) {
+  drinkCoffee();
+  writeCode();
+  debug();
+  repeat();
+}`}
                 </code>
               </pre>
             </div>
