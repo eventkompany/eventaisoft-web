@@ -1,0 +1,10 @@
+{
+  "short_name": "Eventai",
+  "name": "Eventai Soft Solutions",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#001022",
+  "background_color": "#ffffff"
+}
