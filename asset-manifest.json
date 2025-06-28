@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eventaisoft-web/static/css/main.8c6dc476.css",
-    "main.js": "/eventaisoft-web/static/js/main.64ce776e.js",
+    "main.js": "/eventaisoft-web/static/js/main.50ec6eff.js",
     "static/media/fa-solid-900.ttf": "/eventaisoft-web/static/media/fa-solid-900.2582b0e4bcf85eceead0.ttf",
     "static/media/fa-brands-400.ttf": "/eventaisoft-web/static/media/fa-brands-400.1815e00441357e01619e.ttf",
     "static/media/fa-solid-900.woff2": "/eventaisoft-web/static/media/fa-solid-900.2463b90d9a316e4e5294.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/eventaisoft-web/static/media/fa-v4compatibility.ea8f94e1d22e0d35ccd4.woff2",
     "index.html": "/eventaisoft-web/index.html",
     "main.8c6dc476.css.map": "/eventaisoft-web/static/css/main.8c6dc476.css.map",
-    "main.64ce776e.js.map": "/eventaisoft-web/static/js/main.64ce776e.js.map"
+    "main.50ec6eff.js.map": "/eventaisoft-web/static/js/main.50ec6eff.js.map"
   },
   "entrypoints": [
     "static/css/main.8c6dc476.css",
-    "static/js/main.64ce776e.js"
+    "static/js/main.50ec6eff.js"
   ]
 }
