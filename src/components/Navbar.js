@@ -62,18 +62,11 @@ const CustomNavbar = ({ scrolled }) => {
           <div className="slide-in-right">
             <Nav>
               <Nav.Link 
-                href="#broken" 
+                href="#about" 
                 className="mx-2 fs-6 text-white nav-link"
-                onClick={(e) => handleClick(e, 'broken')}
+                onClick={(e) => handleClick(e, 'about')}
               >
                 About
-              </Nav.Link>
-              <Nav.Link 
-                href="#broken" 
-                className="mx-2 fs-6 text-white nav-link"
-                onClick={(e) => handleClick(e, 'broken')}
-              >
-                Services
               </Nav.Link>
               <Nav.Link 
                 href="#broken" 

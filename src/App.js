@@ -6,6 +6,7 @@ import './App.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import BrokenPage from './components/BrokenPage';
 import Contact from './components/Contact';
+import About from './components/About';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -22,6 +23,7 @@ function App() {
     <div className="app">
       <Navbar scrolled={scrolled} />
       <Hero />
+      <About />
       <BrokenPage />
       <Contact />
       <Footer />

@@ -9,16 +9,17 @@ const Footer = () => {
             <div className="fade-in">
               <h3 className="h4 mb-3 text-white">Eventai Soft Solutions LLP</h3>
               <p className="text-white">
-                7/66 Chengaloor PO <br/>Thrissur, Kerala 680312
+                7/66 Chengaloor PO <br />
+                Thrissur, Kerala 680312
               </p>
-                <a
-                  href="https://linkedin.com/company/eventaisoft"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white"
-                >
-                  <i className="fab fa-linkedin fa-lg"></i>
-                </a>
+              <a
+                href="https://linkedin.com/company/eventaisoft"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white"
+              >
+                <i className="fab fa-linkedin" style={{ fontSize: "2rem" }}></i>
+              </a>
             </div>
           </Col>
           <Col md={4} className="mb-4 mb-md-0"></Col>

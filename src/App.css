@@ -339,3 +339,96 @@ html {
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.25);
 }
+/* About Page Styles */
+.about-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-color: var(--accent-color);
+}
+
+.coming-soon-card {
+  background: rgba(77, 171, 247, 0.1);
+  border-radius: 15px;
+  border-left: 4px solid var(--accent-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.coming-soon-card::after {
+  content: 'COMING SOON';
+  position: absolute;
+  top: 10px;
+  right: -30px;
+  background: var(--accent-color);
+  color: var(--primary-dark);
+  padding: 3px 30px;
+  font-size: 12px;
+  font-weight: bold;
+  transform: rotate(45deg);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tech-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tech-list li {
+  padding: 8px 0;
+  border-bottom: 1px dashed rgba(255,255,255,0.1);
+}
+
+.icon-box {
+  width: 80px;
+  height: 80px;
+  background: rgba(77, 171, 247, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-accent {
+  color: var(--accent-color);
+}
+
+.btn-accent {
+  background-color: var(--accent-color);
+  color: var(--primary-dark);
+  font-weight: 600;
+  border: none;
+  min-width: 200px;
+}
+
+.btn-accent:hover {
+  background-color: #3a9ae8;
+  transform: translateY(-2px);
+}
+
+.pulse-icon {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* Progress bar styles */
+.progress {
+  height: 8px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+}
+
+.progress-bar {
+  background-color: var(--accent-color);
+}

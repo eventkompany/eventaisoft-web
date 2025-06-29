@@ -8,6 +8,8 @@ const Hero = () => {
         <Row className="align-items-center">
           <Col lg={6} className="mb-5 mb-lg-0 hero-content">
             <div className="slide-in-left">
+              <h2 className="section-title mb-5 fade-in">Our Focus on</h2>
+
               <h1 className="display-3 fw-bold mb-4 text-white">
                 AI-Powered Event Solutions
               </h1>
