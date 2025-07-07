@@ -16,9 +16,20 @@ const Footer = () => {
                 href="https://linkedin.com/company/eventaisoft"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white"
+                className="text-white me-3"
               >
                 <i className="fab fa-linkedin" style={{ fontSize: "2rem" }}></i>
+              </a>
+              <a
+                href="https://instagram.com/eventaisoft"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white"
+              >
+                <i
+                  className="fab fa-instagram"
+                  style={{ fontSize: "2rem" }}
+                ></i>
               </a>
             </div>
           </Col>
