@@ -36,6 +36,16 @@ const Footer = () => {
           <Col md={4} className="mb-4 mb-md-0"></Col>
           <Col md={4}>
             <div className="fade-in" style={{ animationDelay: "0.4s" }}>
+              <img
+                src="/logo.png"
+                alt="Eventai Soft Solutions"
+                style={{
+                  height: "50px",
+                  width: "auto",
+                  objectFit: "contain",
+                  marginBottom: "1rem",
+                }}
+              />
               <h3 className="h4 mb-3 text-white">Contact Us</h3>
               <address className="text-white">
                 <p>

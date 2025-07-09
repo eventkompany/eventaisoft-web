@@ -10,22 +10,22 @@ const CustomNavbar = ({ scrolled }) => {
     const element = document.getElementById(target);
     if (element) {
       element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
+        behavior: "smooth",
+        block: "start",
       });
-      
-      element.classList.add('highlight-section');
+
+      element.classList.add("highlight-section");
       setTimeout(() => {
-        element.classList.remove('highlight-section');
+        element.classList.remove("highlight-section");
       }, 2000);
     }
   };
 
   return (
-    <Navbar 
-      expand="lg" 
-      fixed="top" 
-      className={`py-2 custom-navbar ${scrolled ? 'scrolled' : ''}`}
+    <Navbar
+      expand="lg"
+      fixed="top"
+      className={`py-2 custom-navbar ${scrolled ? "scrolled" : ""}`}
       expanded={expanded}
       onToggle={(isExpanded) => setExpanded(isExpanded)}
     >
@@ -34,58 +34,53 @@ const CustomNavbar = ({ scrolled }) => {
           <Navbar.Brand
             href="#home"
             className="d-flex align-items-center text-white"
-            onClick={(e) => handleClick(e, 'home')}
+            onClick={(e) => handleClick(e, "home")}
           >
-            <p
+            <img
+              src="/logo.png"
+              alt="Eventai Soft Solutions"
               style={{
-                fontWeight: "700",
-                fontSize: "1.5rem",
-                letterSpacing: "1px",
-                margin: 0,
-                color: "#ffffff",
+                height: "40px",
+                width: "auto",
+                objectFit: "contain",
               }}
-            >
-              Eventai Soft
-            </p>
+            />
           </Navbar.Brand>
         </div>
 
-        <Navbar.Toggle 
-          aria-controls="basic-navbar-nav" 
-          className="bg-white"
-        />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="bg-white" />
 
-        <Navbar.Collapse 
-          id="basic-navbar-nav" 
+        <Navbar.Collapse
+          id="basic-navbar-nav"
           className="justify-content-end mobile-menu"
         >
           <div className="slide-in-right">
             <Nav>
-              <Nav.Link 
-                href="#about" 
+              <Nav.Link
+                href="#about"
                 className="mx-2 fs-6 text-white nav-link"
-                onClick={(e) => handleClick(e, 'about')}
+                onClick={(e) => handleClick(e, "about")}
               >
                 About
               </Nav.Link>
-              <Nav.Link 
-                href="#broken" 
+              <Nav.Link
+                href="#broken"
                 className="mx-2 fs-6 text-white nav-link"
-                onClick={(e) => handleClick(e, 'broken')}
+                onClick={(e) => handleClick(e, "broken")}
               >
                 Careers
               </Nav.Link>
-              <Nav.Link 
-                href="#broken" 
+              <Nav.Link
+                href="#broken"
                 className="mx-2 fs-6 text-white nav-link"
-                onClick={(e) => handleClick(e, 'broken')}
+                onClick={(e) => handleClick(e, "broken")}
               >
                 Blog
               </Nav.Link>
-              <Nav.Link 
-                href="#contact" 
+              <Nav.Link
+                href="#contact"
                 className="mx-2 fs-6 text-white nav-link"
-                onClick={(e) => handleClick(e, 'contact')}
+                onClick={(e) => handleClick(e, "contact")}
               >
                 Contact
               </Nav.Link>
